@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+html {
+  height: 100%;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  font-family: "Roboto Flex", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
