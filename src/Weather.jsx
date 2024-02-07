@@ -72,13 +72,11 @@ const Weather = () => {
                             onChange={handleInputChange} />
                         <button class="fa-solid fa-magnifying-glass" onClick={handleSubmit}></button>
                     </div>
-
                     <div class="weather-box">
                         <img src={weatherImage} alt='weather' />
                         <p class="temperature">{parseInt(weatherData.main.temp)}°C</p>
                         <p class="description">{weatherData.weather[0].description}</p>
                     </div>
-
                     <div class="weather-details">
                         <div class="humidity">
                             <i class="fa-solid fa-water"></i>
